@@ -23,8 +23,8 @@ buff++;}
 for (int i = desir_position - 1; arr[i] == input; i--) {
 if (arr[i] == input)
 buff++; }
-} 
- else
-  return 0;
+}
+else
+return 0;
 return buff;
 }
