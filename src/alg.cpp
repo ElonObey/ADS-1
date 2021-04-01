@@ -1,17 +1,18 @@
+// Copyright 2021 NNTU-CS
 int cbinsearch(int *arr, int size, int value) {
 int left_border = 0;
 int right_border = SIZE_ARR;
 int mid = 0;
 int desir_position = 0;
 int buff = 0;
-  
+
 while (left_border < right_border) {
- mid = (left_border + right_border) / 2;
-  if (arr[mid] > input) right_border = mid - 1;
-   else if (arr[mid] < input) left_border = mid + 1;
-   else if (arr[mid] == input)
-    { desir_position = mid;
-     break;}
+mid = (left_border + right_border) / 2;
+if (arr[mid] > input) right_border = mid - 1;
+else if (arr[mid] < input) left_border = mid + 1;
+else if (arr[mid] == input)
+{ desir_position = mid;
+break;}
 else
   return 0;
 }
