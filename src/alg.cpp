@@ -1,5 +1,5 @@
 // Copyright 2021 NNTU-CS
-int cbinsearch(int *arr, int size, int value) {
+int cbinsearch(int *arr, int SIZE_ARR, int input) {
 int left_border = 0;
 int right_border = SIZE_ARR;
 int mid = 0;
